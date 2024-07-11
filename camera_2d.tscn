@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://b64nbqqvsm4fd"]
+[gd_scene load_steps=2 format=3 uid="uid://b64nbqqvsm4fd"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_0dlv3"]
 
 [node name="Camera2D" type="Camera2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+physics_material_override = SubResource("PhysicsMaterial_0dlv3")
